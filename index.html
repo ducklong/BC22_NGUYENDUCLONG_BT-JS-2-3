@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- <input id="txtUsername" type="number" value="Cybersoft" />
+
+    <input id="txtPassword" type="number" value="Cybersoft" />
+    <button id="btnLogin" class="btn btn-success">Login</button> -->
+    <br />
+    <br />
+    <br />
+
+    <!-- showpass vs user -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Login</div>
+            <div class="card-body">
+              <div class="form-group">
+                <input
+                  id="txtUsername"
+                  class="form-control"
+                  type="text"
+                  value="Cybersoft"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  id="txtPassword"
+                  class="form-control"
+                  type="text"
+                  value="Cybersoft"
+                />
+              </div>
+              <button id="btnLogin" class="btn btn-success">Login</button>
+            </div>
+            <div id="footerLogin" class="card-footer text-muted">Footer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <!-- cong 2 so -->
+
+    <input id="txtNumber1" type="text" placeholder="number 1" />
+    <input id="txtNumber2" type="text" placeholder="number 2" />
+
+    <button id="btnSum" class="btn-success">Sum</button>
+
+    <div id="notice"></div>
+
+    <hr />
+
+    <!-- bongden -->
+
+    <button id="btnOff" class="btn btn-dark">off</button>
+    <img id="imgPic" src="./image/pic_bulboff.gif" alt="" />
+    <button id="btnOn" class="btn btn-warning">on</button>
+
+    <button id="disableBtnon" class="btn btn-primary">Disable btn On</button>
+    <button id="enableBtnon" class="btn btn-secondary">Enable btn On</button>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- tien tip -->
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Money Tips</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label id="txtTotal" for=""> Total Pay</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  name=""
+                  id=""
+                  aria-describedby="helpId"
+                  placeholder=""
+                />
+              </div>
+              <div class="form-group">
+                <label id="txtPercent" for="">How much do u want to tip?</label>
+                <select class="form-control" name="" id="">
+                  <option value="10">10%</option>
+                  <option value="20">20%</option>
+                  <option value="30">30%</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label id="txtPeople" for="">How many people do u want to share?</label>
+                <input
+                type="number"
+                class="form-control"
+                name=""
+                id=""
+                aria-describedby="helpId"
+                placeholder=""
+              />
+                  
+                 
+
+                </select>
+              </div>
+              <button  id="btnCount" type="button" class="btn btn-primary">Count</button>
+              <div id="showTips"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Money Tips</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Total Pay</label>
+                <input id="txtTotal" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">How much do u want to tip?</label>
+                <select id="txtPercent" class="form-control">
+                  <option value="10">10%</option>
+                  <option value="20">20%</option>
+                  <option value="30">30%</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">How many people do u want to share?</label>
+                <input id="txtPeople" type="text" class="form-control" />
+              </div>
+            </div>
+            <button id="btnCount" type="button" class="btn btn-primary">
+              Count
+            </button>
+            <div id="showTips" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="divContent"></div>
+    <button id="btnCreateP" class="btn btn-info">Click</button>
+
+    <br />
+    <br />
+
+    <!-- rap film -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Cinematic</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Film name</label>
+                <input id="txtFilmname" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Price for Adult people</label>
+                <input id="txtAdult" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Price for children and teen</label>
+                <input id="txtChild" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for=""> Number of ticket of Adult people</label>
+                <input id="txtNumberadult" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Number of ticket of children and teen</label>
+                <input id="txtNumberchild" type="text" class="form-control" />
+              </div>
+            </div>
+            <button
+              id="btnCountmoneyleft"
+              type="button"
+              class="btn btn-primary"
+            >
+              Count
+            </button>
+            <div id="showLeftmoney" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <!-- tinh luong  nhan vien -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Salary</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">day work</label>
+                <input id="txtDaywork" type="text" class="form-control" />
+              </div>
+            </div>
+            <button id="btnCountsalary" type="button" class="btn btn-primary">
+              Count Salary Staff
+            </button>
+            <div id="showAllsalary" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+<!-- nhap so -->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-header">input number</div>
+        <div class="card-body">
+          <div class="form-group">
+            <label for="">number 1</label>
+            <input id="txtNumberso1" type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="">number 2</label>
+            <input id="txtNumberso2" type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="">number 3</label>
+            <input id="txtNumberso3" type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="">number 4</label>
+            <input id="txtNumberso4" type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="">number 5</label>
+            <input id="txtNumberso5" type="text" class="form-control" />
+          </div>
+        </div>
+        <button id="btnCountnumber" type="button" class="btn btn-primary">
+          Count Number
+        </button>
+        <div id="showNumberall" class="card-footer text-muted"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br />
+<br />
+
+<!-- doi tien -->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-header">Change Money</div>
+        <div class="card-body">
+          <div class="form-group">
+            <label for="">Number of USD you want to change to VND ?</label>
+            <input id="txtNumbermoney" type="text" class="form-control" />
+          </div>
+         
+        </div>
+        <button id="btnChange" type="button" class="btn btn-primary">
+          Change
+        </button>
+        <div id="showMoneychange" class="card-footer text-muted"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br />
+<br />
+<!-- hinh hoc -->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-header">Retangular</div>
+        <div class="card-body">
+          <div class="form-group">
+            <label for="">Lenght of retangular ?</label>
+            <input id="txtlength" type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="">Width of retangular?</label>
+            <input id="txtwidth" type="text" class="form-control" />
+          </div>
+         
+        </div>
+        <button id="btnCaculate" type="button" class="btn btn-primary">
+          Caculate
+        </button>
+        <div id="showResult" class="card-footer text-muted"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br />
+<br />
+<!-- ky so -->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-header">Ký số</div>
+        <div class="card-body">
+          <div class="form-group">
+            <label for="">Input a random number have two character !</label>
+            <input id="txtNumberrandom" type="text" class="form-control" />
+          </div>
+         
+         
+        </div>
+        <button id="btnNumber" type="button" class="btn btn-primary">
+          Caculate
+        </button>
+        <div id="showNumber" class="card-footer text-muted"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br />
+<br />
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./lib/main.js"></script>
+  </body>
+</html>

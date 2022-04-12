@@ -1,0 +1,32 @@
+.showInfor{
+    background-color: blue;
+    color: wheat;
+    font-size: 30px ;
+    width: 450px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.showIn4{
+    background-color: rgb(8, 252, 170);
+    color: rgb(247, 12, 12);
+    font-size: 30px ;
+    width: 450px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.showTips{
+    background-color: rgb(8, 252, 170);
+    color: rgb(247, 12, 12);
+    font-size: 30px ;
+    width: 450px;
+    margin-top: 20px;
+    text-align: center;
+}
+
